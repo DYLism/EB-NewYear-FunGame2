@@ -11,7 +11,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1080 height=1920></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -26,11 +26,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Net3.loader.js";
+      var loaderUrl = buildUrl + "/Net4.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Net3.data",
-        frameworkUrl: buildUrl + "/Net3.framework.js",
-        codeUrl: buildUrl + "/Net3.wasm",
+        dataUrl: buildUrl + "/Net4.data",
+        frameworkUrl: buildUrl + "/Net4.framework.js",
+        codeUrl: buildUrl + "/Net4.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "EB",
         productName: "ColorfulStackBall_Master",
